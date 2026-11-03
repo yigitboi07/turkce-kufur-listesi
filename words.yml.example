@@ -1,15 +1,75 @@
-# ExoviaDonutChat — küfür filtresi (0% yanlış pozitif hedefli, Minecraft TR sohbet)
-# exact: yalnız bağımsız kelime | root: ekli formlar (>=5, masum alt dizgi yok)
-# sub: çok kelimeli kalıplar | compact: boşluksuz bypass | safe: maskeleme
+# ExoviaDonutChat — küfür filtresi (sustur 20g + kufur.sk + GitHub)
+# exact: kelime eşleşmesi | root: ekli form (>=4) | sub: kalıp | compact: bitişik | safe: SADECE masum maske
+# harf-uzatma / chat-kirletme: ProfanityFilter config (letter-stretch, chat-litter)
 
 exact:
-  - gerizekali
-  - gerizekalı
-  - gerizekalisin
-  - gerizekaliyin
+  - 0ç
+  - 0r0spu1
+  - 0rospu
+  - 0rspu
+  - 1bn3
+  - 1bne
+  - 1bneler
+  - 1bnelik
+  - 1pn3
+  - 1pne
+  - 1pnelik
+  - 1toğlu
+  - 1toğluit
+  - 1tsoyu
   - 31cek
   - 31çik
+  - 3be
+  - 3may1
+  - 3nay1
+  - 3nayi
+  - 4hm4k1
+  - 4m1k
+  - 4m1na
+  - 4mcuk
+  - 4mık
+  - 4mk
+  - 4mk1
+  - 4mkoyim
+  - 4mkoyum
+  - 4mq
+  - 4ptal1
   - 4rspu
+  - 4rspu evladı
+  - 51kt1r
+  - 51ktirgit
+  - 5ikerim
+  - 5ikik
+  - 5iktir
+  - 5skm
+  - 8ok
+  - 90t
+  - a  w
+  - a w
+  - a.q
+  - abaz1an
+  - abaz4
+  - abaz4n
+  - abaza
+  - abazan
+  - abazn
+  - aesir
+  - aesirde
+  - aesire
+  - aesirmc
+  - aesirnet
+  - aesirnetwork
+  - ag
+  - agla
+  - agzınascm
+  - ağla
+  - ağzına
+  - ahm4k1
+  - ahmak
+  - akp1l1
+  - alag4t
+  - alagav4t
+  - alagavat
   - alahını
   - alahısz
   - alahini
@@ -22,72 +82,728 @@ exact:
   - allahisz
   - allahsısz
   - allahsız
-  - allahsızz
   - allahsiz
   - allha
+  - am
+  - "am*ık"
+  - am1n4
+  - am1na
+  - am1nako
+  - am1nasokm
+  - am1noglu
+  - am4na
+  - ambiti
+  - amc1g1
+  - amc1g1n
+  - amc1g1n1
+  - amc1g1nı
+  - amc1g1niz
+  - amc1g1zı
+  - amc1k
+  - amc1klama
+  - amc1klan
+  - amc1ks1z
+  - amc1m
+  - amc1q
+  - amcığ
+  - amcığı
+  - amcığın
+  - amcığını
+  - amcıh
   - amcık
+  - amcıklama
   - amcıksın
+  - amcıq
+  - amcigi
   - amcik
   - amciksın
+  - amck
+  - amckl
+  - amcklama
+  - amckta
+  - amcktan
+  - amcug
+  - amcuh
   - amcuk
+  - amcukk
+  - amcukl4r
   - amg
+  - amgk
+  - amı
+  - amık
+  - amına
   - amınakke
   - amınakkke
+  - amınako
+  - amınasok
+  - amınasokm
+  - amında
+  - amını
+  - amınoglu
+  - amınoğlu
+  - amınun
+  - amıs1n
+  - amısına
+  - amısını
+  - amik
+  - amina
   - aminakke
+  - aminako
+  - aminakoy
+  - aminakoyim
+  - aminda
+  - amindan
+  - amini
+  - aminoglu
+  - amiyum
+  - amjık
+  - amjk
   - amk
-  - amkc
+  - amk1
+  - amk1m
+  - amkafa
   - amkç
+  - amkk
+  - amkkk
+  - amkocu
+  - amkoyim
+  - amlarnzn
+  - amlı
+  - amm
+  - ammak
+  - ammk
+  - ammna
+  - amn
+  - amna
+  - amnako
+  - amnda
+  - amndaki
+  - amngtn
+  - amnn
+  - amnskm
+  - amnskm1
+  - amnskym
+  - amnskym1
+  - amona
+  - amq
+  - amq1
+  - ams1zlar
+  - amsalak
+  - amsız
+  - amsiz
+  - amsuratlı
+  - amsz
+  - amter1
+  - amteri
+  - amugaa
+  - amuğa
+  - amuk
+  - amuna
+  - amunskm1
+  - amuş
+  - amv
+  - anaaann
+  - anal
+  - analarn
+  - anan
+  - anan1
+  - anan1s
+  - anan1s1k
+  - anan1z1n
+  - anana
+  - ananc1
+  - anandan
+  - ananı
+  - ananın
+  - ananınki
+  - ananıs
+  - ananıs1km
+  - ananısıkm
+  - ananıslym
+  - ananızın
+  - anani
+  - ananin
+  - ananizi
+  - anann
+  - ananz
+  - anas
+  - anas1
+  - anas1n1
+  - anas1n1n
+  - anas1nı
+  - anası
+  - anasını
+  - anasının
+  - anasız
+  - anasi
+  - anasini
+  - anavrat
+  - anay
+  - anayin
+  - andav4l
+  - andavall1
+  - angut
+  - angut1
+  - anına
+  - anınaa
+  - anina
+  - annen
+  - anneni
+  - annenin
+  - annesiz
+  - anuna
+  - apt4l1
+  - aptal
+  - aptal1
   - aq
+  - aq1
+  - as1kt1r
+  - asiktir
   - asllahını
   - asllahini
+  - ass
   - asurspu
+  - aşağılık
   - aşllahını
   - aşllahini
+  - atkafası
+  - atkafasi
+  - atmık
+  - attrrm
+  - auzlu
+  - avradın1s
+  - avradını
+  - avradini
+  - avrat
+  - aw
   - awk
   - awq
+  - aww
+  - awww
+  - awwww
+  - azdım
+  - azdır
+  - azdır1c1
+  - azdırıcı
+  - b0k
+  - b0kyiyen
+  - b1zır1
+  - b1zırlama
+  - b4cıs1
+  - babanı
+  - babanın
+  - babani
+  - babası
+  - bac1n1
+  - bac1n1n
+  - bac1s1
+  - bac1s1k
+  - bacağına
+  - bacına
+  - bacını
+  - bacının
+  - bacınıskm
+  - bacıs1k1k
+  - bacısız
+  - bacısız1
+  - bacısikik
+  - bacini
+  - bacn
+  - bacndan
+  - bacy
+  - bamy4
+  - bamyap1p1
+  - bastard
+  - basur
+  - basur1
+  - bedev1
+  - beyinsiz
+  - bızır
+  - bitch
+  - biti
+  - biting
   - blowjob
-  - buluk
+  - bok
+  - boka
+  - bokbok
+  - bokcuklar
+  - bokça
+  - bokhu
+  - bokkkumu
+  - boklar
+  - boklu
+  - boktan
+  - boku
+  - bokum
+  - bombok
+  - boner
+  - bosalmak
+  - boşalmak
+  - boynuzlu
+  - boynuzlu1
+  - buku
   - burna
+  - burnacı
   - bülük
-  - dasdas
+  - büyükbaş
+  - c0mmer
+  - c1ns1z
+  - c1v1k
+  - c4h1l
+  - cahil
+  - cebel1
+  - cedd1n1
+  - cenabet
+  - cıbıl1
+  - cıbılsız
+  - cıvık1
+  - cıvıtm4
+  - cocugu
+  - craftrise
+  - çocuğu
+  - çocuğudur
+  - çocukları
+  - çük
+  - d0mal
+  - d0maldı
+  - d0maldın
+  - d0malt
+  - d1ktıler
+  - d1ldo
+  - d1ngıl
+  - d1ns1z
+  - d1rek
+  - d4mızlık
+  - d4şak
+  - dalaksız
+  - dalkavuk
+  - dall4ma
+  - dallama
+  - daltassak
+  - daltassk
+  - dalyarak
+  - dalyarr4k
+  - dalyarrak
+  - dangalak
+  - dangalak1
+  - danyal
+  - dassag1
+  - dassag1m
+  - dassagi
   - dassak
+  - daş daş
+  - daşağı
+  - daşak
+  - daşak1
   - daşdaş
+  - daşşağı
   - daşşak
+  - daşşak1
+  - daşşakkkk
+  - deliği
+  - deyyus
+  - dıyrak
+  - diktim
+  - dildo
+  - dingil
+  - dingilini
+  - dinsiz
+  - dkerim
+  - domal
+  - domalan
+  - domaldı
+  - domaldın
+  - domalık
+  - domalıyor
+  - domalmak
+  - domalmış
+  - domalsın
+  - domalt
+  - domaltıp
+  - domaltır
+  - domaltip
+  - domaltmak
+  - domuz
+  - donut
+  - donutsmp
+  - döl1
+  - döl1srafı
+  - döllek
+  - dölleme
+  - dölsüz
+  - dölsüz1
+  - dönek
   - dumbuk
+  - dümbelek
   - dümbük
+  - dürzü
+  - eben
+  - eben1
+  - eben1n
+  - eben1nk1
+  - ebene1
+  - ebenın
+  - ebenınkı
+  - ebeni
+  - ebenin
+  - ebeninki
+  - ebenizi
+  - ebleh
+  - ecdad1n1
+  - ecdad1nız
+  - ecdadın1
+  - ecdadını
+  - ecdadini
   - embesil
+  - emcuk
+  - emcük
+  - emcük1
+  - emcükle
+  - emicem
+  - enay1
+  - enay1ler
+  - ergen1
+  - escort
+  - eskort
+  - eskort1
+  - evlad1
+  - evlad1m
+  - evladı
+  - evladın1
+  - ez
+  - ez1k
+  - ez1kler
+  - ez1ksin
+  - ezik
   - ezz
   - ezzz
   - ezzzz
+  - ezzzzz
+  - f0llos
+  - f1cktir
+  - f1stan
+  - f4h1se
+  - f4h1şe
+  - f4hıse
+  - f4hışe
+  - f4hise
   - fahise
   - fahişe
+  - fck
+  - fcku
+  - feriştah
+  - ferre
+  - feryad1
+  - feryadı
+  - feryat1
+  - fısatçı
+  - folloş
+  - foseptik
+  - fuck
+  - fucker
+  - fuckin
+  - fucking
+  - fuker
+  - "g*t"
+  - "g*tü"
+  - g0bek
+  - g0t
+  - g0tveren
+  - g1b1s
+  - g1b1ş
+  - g1ber
+  - g1berim
+  - g1berler
+  - g1bmek
+  - g1bt1ler
+  - g4v4t
+  - g4v4t1
+  - g4vat
+  - g4vurluk
+  - gabdız
+  - gabdız1
+  - gancık1
+  - garbage
+  - gavad
+  - gavat
+  - gavat1
+  - gavatlar1
+  - gavatn
+  - gavur
+  - gavur1
+  - gay
+  - geber
+  - geberik
+  - gerdanl1k
+  - gerizekalı
+  - gerzek
+  - geveze1
+  - gevsek
+  - gevşek
+  - gıberım
+  - gıberler
+  - gıbıs
+  - gıbısler
+  - gıbtıler
+  - giberim
+  - giberler
+  - gibis
+  - gibiş
+  - gibmek
+  - gibtiler
+  - girsin
+  - git
+  - godos
+  - godos1
+  - godoş
+  - godoş1
+  - godumun
+  - goot
+  - got
+  - gotelek
+  - gotlalesi
+  - gotlek
+  - gotlu
+  - gotten
+  - gotu
+  - gotum
+  - gotun
+  - gotundeki
+  - gotunden
+  - gotune
+  - gotunu
+  - gotveren
+  - goyiim
+  - goyum
+  - goyuyim
+  - goyyim
+  - göd0s1
+  - göd0ş1
+  - göt
+  - götelek
+  - götelek1
+  - götlalesi
+  - götlek
+  - götoğlanı
+  - götoş
+  - götten
+  - götü
+  - götün
+  - götüne
+  - götünü
+  - götveren
+  - gtelek
+  - gtn
+  - gtnde
+  - gtnden
+  - gtne
+  - gtt
+  - gtten
+  - gtveren
+  - gusulsuz1
+  - gusülsüz
+  - gvnt
+  - gvnt1
+  - gvt
+  - h0varda
+  - h4s1kt1r
+  - h4s1ktır
+  - h4siktir
+  - h4ss1kt1r
+  - h4ssiktir
+  - h4yin
+  - h4ynın
+  - h4yvan
+  - hadım1
+  - haksız1
+  - halıs1z
+  - has1kt1r
+  - hasihtir
+  - hasiktir
+  - hassikome
+  - hassiktir
+  - hassittir
+  - hayvan
+  - helallı
+  - hergele
+  - hırbo
+  - hırdav4t
+  - hırsız
+  - hırt1
+  - hıyarto
   - hirram
+  - hoduk
+  - hoşafı
+  - hödük
+  - hsktr
+  - hsktr1
+  - huur
+  - ıbne
+  - ıbnelık
+  - ıbnelık1
+  - ıbnetor
+  - ıtoğluıt
+  - ibina
+  - ibine
+  - ibinenin
+  - ibinetor
+  - ibne
+  - ibnedir
+  - ibneler
+  - ibneleri
+  - ibneliği
+  - ibnelik
+  - ibnelri
+  - ibnemsi
+  - ibneni
+  - ibnenin
+  - ibnerator
+  - ibnesi
+  - idiot
+  - idiyot
+  - iffetsiz
+  - imansız1
+  - imansiz
+  - imansz
+  - ipne
+  - iserim
+  - işerim
+  - itoğlu
   - jigolo
   - johnny
   - johnnysins
   - johny
   - johnysins
+  - k4hbe
+  - k4hpeler
+  - k4ltak
+  - k4ncık
+  - kafam
+  - kafasız
+  - kafasiz
+  - kahbe
+  - kahbe1
+  - kahpe
+  - kahpenin
+  - kaka
+  - kalleş
+  - kaltağ
+  - kaltak
+  - kaltak1
+  - kancığ
+  - kancık
+  - kancık1
+  - kancik
+  - kappe
+  - kar1n1
+  - kar1s1
+  - karhane
+  - karını
+  - karısını
+  - kaşar
+  - kavat
+  - kavatn
+  - kavt
+  - kaypak
+  - kayyum
+  - kerane
+  - kerhane
+  - kevase
+  - kevaş1
+  - kevaş1e
+  - kevaşe
+  - kevvase
+  - kılkuyruk
+  - kitapsiz
+  - kodugum
+  - koduğmun
+  - kodumun
+  - kodumunun
+  - koduumun
+  - korkak
+  - koyiiym
+  - koynim
+  - koyyim
+  - köpoğlu
+  - krar
+  - kukudaym
+  - kurusu
+  - laciye
+  - lagsmp
+  - lavuk
+  - liboş
+  - m.k
+  - m.q
+  - "m@l"
+  - m4l4f4t1
+  - madafaka
+  - mal
+  - malafat
+  - malafat1
+  - malafatçı
+  - malak
+  - maldovya
   - malsın
   - malsi
   - malsin
+  - many4k1
+  - manyak
+  - manyak1
+  - mcik
+  - meme
+  - mezveleli
+  - minaamcık
   - mk
+  - mna
   - mq
+  - mudik
+  - müptezel
+  - n00b
+  - namussuz
+  - negro
   - niga
+  - niger
   - nigerrite
+  - nigga
+  - nigger
+  - noob
+  - nude
+  - o e
+  - o.ç
+  - o.çocuğu
+  - oc
   - oclar
   - ocler
   - ocsun
   - ocsunuz
   - ocugu
-  - ocugunun
-  - oçocuğu
+  - ocuu
+  - ocuun
+  - oç
+  - OÇ
+  - oe
+  - œ
+  - œ siniz
   - oeler
   - œler
-  - oelersiniz
   - oesiniz
+  - oglan
+  - oglan1
+  - oglan1n
+  - oglu
   - ogospular
   - ogospuları
+  - oğlan
+  - oğlancı
+  - oğlu
+  - ol
   - omk
+  - or cocugu
+  - or çocuğu
+  - or evladı
+  - or evladi
+  - or evlat
+  - oral
   - orcocugu
   - orcocuk
   - orçocuğu
@@ -97,34 +813,82 @@ exact:
   - orevlat
   - orosb
   - orosbi
+  - orosbu
+  - orosbu1
   - orosp
   - orospu
+  - orospudur
+  - orospular
+  - orospunun
+  - orospuu
+  - orospuuu
+  - orospuydu
+  - orospuyuz
+  - orostoban
+  - orostopol
+  - orrospu
   - orsbunun
+  - orsp
+  - orspcocu
   - orspu
   - oruosbu
+  - orusbu
   - oruspu
+  - osbir
+  - ossurduum
+  - ossuruk
+  - osur
+  - osurduu
+  - osuruk
+  - otistik
   - otuzbir
+  - ozurlu
+  - öküz
+  - öşex
+  - özürlü
+  - p 0 r n
+  - p o r n
   - "p!c"
   - "p!cer"
   - "p!ç"
   - "p!ç1"
   - "p!çer"
+  - p.o.r.n
   - "p|c"
   - p0ç
+  - p0rn
+  - p0rno
   - p1c
   - p1cer
+  - p1cın
+  - p1cin
+  - p1cini
+  - p1cler
+  - p1cleri
+  - p1clik
   - p1ç
   - p1ç1
   - p1çer
+  - p1çler
+  - p1p1
+  - p1p1ş
+  - p3z3v3nk
+  - patlak
   - pçe
   - pçin
   - pçler
   - peec
+  - penis
+  - pezevek
+  - pezeven
   - pezeveng
+  - pezevengi
   - pezevenk
-  - pezevenkler
+  - pezo
+  - pezo1
   - pıc
   - pıch
+  - pıç
   - "pi#"
   - pic
   - pic1
@@ -136,31 +900,95 @@ exact:
   - picin
   - pickurusu
   - picler
+  - piclik
+  - picsin
+  - picsiniz
   - piç
   - piç1
   - piçer
   - piçg
+  - piçin
   - piçkurusu
   - piçler
+  - piçlik
+  - piçsin
+  - piçsiniz
+  - pipi
+  - pipiş
+  - piskopat
   - poç
   - pompalama
   - pompalmasyon
+  - porn
   - pornhub
+  - pornn
+  - porno
   - prnaa
   - punra
+  - punracı
   - purn
   - purna
   - purnaa
   - purnaaa
-  - purnaci
+  - purnacı
   - purnahub
+  - purnoo
+  - pussy
   - pust
   - puşt
+  - puşttur
   - puyna
+  - pzvng
+  - pzvng1
   - pzvnk
+  - pzvnk1
+  - qavat
   - qmk
+  - qot
+  - rahminde
+  - rosbu
+  - s...k.cem
+  - s.g
+  - "s*ktir"
   - s13im
   - s14iyim
+  - s1k
+  - s1k1c1
+  - s1k1ci
+  - s1k1l
+  - s1k1lmısh
+  - s1k1lmis
+  - s1k1m
+  - s1k1mc1
+  - s1k1mtrak
+  - s1k1s
+  - s1k1sonik
+  - s1k1ş
+  - s1k1şc1
+  - s1k1y0rum
+  - s1k1ym
+  - s1k1yrum
+  - s1kerim
+  - s1kerm
+  - s1kik
+  - s1krm
+  - s1kt1r
+  - s1kt1rgit
+  - s1ktır
+  - s1ktırol
+  - s1ktim
+  - s1ktir
+  - s1ktirgit
+  - s1ktiro
+  - s1ktrm
+  - s1kyım
+  - s1kyim
+  - s1m1k
+  - s1m1kler
+  - s1muk
+  - s1mukler
+  - s1tt1m1n
+  - s1tt1r
   - s2erim
   - s2k
   - s2m
@@ -173,72 +1001,219 @@ exact:
   - s2yem
   - s2yim
   - sakso
+  - saksofon
+  - salaak
+  - salak
   - saxo
+  - seks
   - senisikim
   - serefsiz
+  - serefsz
+  - sevişelim
+  - sex
+  - sexs
   - sg
   - sgg
   - sggit
   - sgk
   - sgm
   - sgt
+  - shıt
   - sıçam
+  - sıçar
+  - sıçarım
+  - sıçayım
+  - sıçmak
   - sıçmış
+  - sıçsın
   - sıçtı
+  - sıçtığım
+  - sıecem
   - si3im
   - si4im
   - si4iyim
   - siaiyim
+  - sicarsin
+  - sie
   - sierim
+  - sihtir
+  - sik
   - sikcem
+  - sikdi
+  - sikdiğim
+  - sike
+  - sikecem
+  - sikem
+  - siken
+  - sikenin
+  - siker
   - sikerbab
+  - sikerız
   - sikerim
+  - sikerler
+  - sikersin
+  - sikertir
+  - sikertmek
+  - sikesen
+  - sikey
+  - sikeydim
   - sikeyim
+  - sikeym
+  - siki
   - sikicem
+  - sikici
   - sikicm
+  - sikien
+  - sikienler
+  - sikiiim
+  - sikiiimmm
+  - sikiim
+  - sikiir
+  - sikiirken
+  - sikik
   - sikil
+  - sikilmi
+  - sikilmie
+  - sikilmis
+  - sikilmiş
+  - sikilsin
   - sikim
+  - sikimde
+  - sikimden
+  - sikime
+  - sikimi
+  - sikimiin
+  - sikimin
+  - sikimle
+  - sikimtrak
+  - sikin
+  - sikinde
+  - sikinden
+  - sikine
+  - sikini
+  - sikip
   - sikis
-  - sikiselim
-  - sikisin
-  - sikismek
+  - sikisek
+  - sikisen
+  - sikish
+  - sikismis
   - sikiş
+  - sikişen
+  - sikişme
+  - sikitiin
   - sikiyim
+  - sikiym
   - sikiyom
+  - sikiyorum
+  - sikkim
+  - sikko
+  - sikle
   - siklemiyo
+  - sikler
+  - sikleri
+  - sikleriii
+  - sikli
+  - sikm
   - sikme
   - sikmee
+  - sikmek
+  - sikmem
   - sikmey
+  - sikmiler
   - sikrım
   - sikrim
+  - siksem
+  - sikseydin
   - siksin
   - siksinler
+  - siksiz
+  - siksok
+  - siksonik
+  - siksz
+  - sikt
+  - siktım
+  - siktiği
+  - siktiğim
+  - siktii
+  - siktiim
+  - siktiimin
+  - siktiler
+  - siktim
+  - siktimin
   - siktir
+  - siktirgit
+  - siktirir
+  - silkeyim
   - simee
+  - siq
   - siqcem
+  - siqem
   - siqerim
   - siqicm
+  - siqim
   - siqiyim
   - siqiyom
   - siqrim
   - siqtir
+  - sittimin
+  - sittir
+  - sk
+  - sk1m
+  - sk1rm
+  - sk1yım
+  - sk1ym
+  - skcem
+  - skecem
+  - skem
+  - sker
   - skerım
   - skerim
+  - skerm
+  - skeyim
+  - skiim
+  - skik
   - skim
+  - skime
   - skkicem
   - sklemiyo
   - skm
+  - skm1
+  - skm1n
+  - skmek
   - skrim
   - skrm
   - skrym
+  - sksin
+  - sksn
   - skso
+  - sksz
+  - sktiimin
   - sktr
+  - sktr1
   - sktre
+  - sktrr
+  - skyim
   - skym
+  - skym1
+  - slaleni
   - slk
+  - sokam
+  - sokarım
+  - sokarim
+  - sokarm
+  - sokayım
+  - sokaym
+  - sokiim
+  - sokuk
+  - sokum
   - sokus
   - sokuş
+  - sokuyum
+  - sonoyuncu
+  - soxum
+  - sperm
   - sq
+  - sq1
   - sq3
   - sq4
   - sqgit
@@ -254,62 +1229,249 @@ exact:
   - sqtir
   - sqtr
   - sqym
+  - srfsz
+  - sulalen1
+  - sulaleni
   - surspu
+  - surtuk
+  - sülalen1
+  - sülaleni
+  - sürtük
+  - sxtir
   - şerefsiz
+  - şerefsz
+  - şıllık
+  - şre
+  - şrefsiz
+  - şrfsz
+  - taaklarn
+  - taaklarna
   - tajak
+  - tajaklar
   - tarrak
   - tarram
+  - tarramı
+  - tasag1
+  - tasak
+  - tassag1
   - tassak
+  - taşağa
+  - taşağı
+  - taşak
+  - taşşağa
+  - taşşağı
   - taşşak
+  - tipini
+  - tipinizi
+  - tiyniyat
+  - topsun
+  - totoş
+  - trash
+  - travesti
+  - ucube
+  - usbu cocugu
+  - usbu çocuğu
   - usbuçocuğu
-  - yaragi
+  - v4j1n4
+  - v4j1na
+  - vajina
+  - vajinanı
+  - veled
+  - velet
+  - veletler
+  - verdiimin
+  - veren
+  - verir
+  - weled
+  - whore
+  - wtf
+  - xikeyim
+  - y1l1s1k
+  - y1l1şık
+  - y1lısık
+  - y4rrak
+  - yaaraaa
+  - yala
+  - yalak
+  - yalak4
+  - yalaka
+  - yalama
+  - yalarım
+  - yalarun
+  - yaraaam
+  - yaraak
+  - yaraam
+  - yarag1
   - yaragim
+  - yarağ
   - yarak
+  - yaraksız
+  - yaraktr
+  - yaram
+  - yaraminbas
+  - yaraminbasi
+  - yaramn
+  - yaraqk
+  - yarra
+  - yarraaaa
+  - yarraak
+  - yarraam
+  - yarraamı
+  - yarrag
+  - yarrag1
+  - yarrag1m1
+  - yarragam
+  - yarragımı
+  - yarragi
+  - yarragimi
+  - yarragina
   - yarragm
+  - yarrağ
+  - yarrağım
+  - yarrağımı
+  - yarraimin
   - yarrak
   - yarram
+  - yarram1
+  - yarram1n
+  - yarrama
+  - yarramin
+  - yarraminbas
+  - yarraminbasi
+  - yarramn
+  - yarran
+  - yarrana
+  - yarrrak
+  - yaryam
+  - yavak
   - yavsak
+  - yavsak1
   - yavsaklar
+  - yavş
   - yavşak
+  - yavşak1
   - yavşaklar
+  - yavşaktır
+  - yavuşak
   - yawsak
   - yawsaklar
+  - yetim
+  - yılışık
+  - yilisik
   - yirram
   - yram
   - yrk
   - yrkk
+  - yrm
+  - yrmn
+  - yrrak
+  - yrrimi
+  - yrrk
   - yrrm
+  - yvsk
+  - yvsk1
+  - yvsk1m
+  - z1b1d1
+  - z1k11m
+  - z1k3y1m
+  - z1kım
+  - z1kkım
+  - z1ks11n
+  - z1ks1n
+  - zenci
+  - zıkkım
+  - zıkkımım
   - zibidi
+  - zigsin
+  - zikeyim
+  - zikiiim
+  - zikiim
+  - zikik
+  - zikim
+  - ziksiiin
+  - ziksiin
+  - zina
+  - zviyetini
 root:
+  - 31cek
   - 4rspu
-  - alahisz
+  - aesir
+  - aesirmc
+  - ahmak
+  - alahısz
   - alahsız
   - alahsiz
+  - allaha si
+  - allaha so
+  - allaha sö
+  - allahısz
   - allahinis
-  - allahisz
   - allahnisi
   - allahsız
   - allahsiz
-  - aminakoyayim
+  - amcık
+  - amcik
+  - aminakoy
+  - ananisi
   - anasınısktı
   - anasiniskti
+  - annesinis
+  - aptal
   - asurspu
+  - bacinis
+  - beyinsiz
+  - blowjob
   - bokumu ye
   - bokumuye
   - buluk
   - bülük
+  - craftrise
+  - dangalak
   - dassak
   - daşşak
   - dininis
+  - domal
+  - donut
   - donutsmp
+  - ecdadini
+  - embesil
+  - escort
+  - eskort
+  - ezzzz
+  - ezzzzz
   - fahise
   - fahişe
+  - garbage
+  - gavat
+  - gavur
+  - gerizekalı
+  - gerizekali
+  - gerzek
+  - gotune
+  - gotunu
   - hirram
+  - hoduk
+  - hödük
+  - ibne
+  - imansiz
+  - jigolo
   - kabeniz
+  - kahbe
+  - kahpe
   - kitabinis
+  - kitapsiz
   - kuraninis
+  - lagsmp
+  - malsın
+  - malsi
+  - malsin
   - mekkeyi
+  - negro
+  - niger
   - nigerrite
+  - nigga
+  - nigger
+  - oclar
   - ogospu
   - ogospular
   - orcocu
@@ -319,34 +1481,53 @@ root:
   - orosbi
   - orosbu
   - orosp
+  - orospu
   - orospucoc
   - orospucocu
   - orspu
   - oruosbu
   - oruspu
+  - otistik
+  - otuzbir
+  - ozurlu
+  - özürlü
+  - p0rn
   - pezevenk
   - picer
+  - pickurusu
   - picler
   - piclik
+  - picsin
   - piçer
   - piçler
   - piçlik
+  - piçsin
+  - pompalama
+  - porn
   - pornhub
+  - porno
+  - purn
   - purna
   - purnahub
   - puyna
   - s2kerim
   - s2nde
   - s2tir
+  - sakso
+  - salak
   - senisikim
+  - serefsiz
   - sikcem
   - sikerbab
   - sikerim
   - sikeyim
   - sikicem
+  - sikim
+  - sikis
   - sikiselim
   - sikisin
   - sikismek
+  - sikiş
   - sikişelim
   - sikişin
   - sikişmek
@@ -360,132 +1541,448 @@ root:
   - siqtir
   - skrim
   - sktir
+  - sktr
+  - sonoyuncu
   - sqerim
   - sqkerim
   - sqrim
   - sqter
   - sqtir
+  - sqtr
+  - sulaleni
   - surspu
+  - surtuk
+  - sürtük
+  - şerefsiz
   - tarrak
   - tarram
-  - usbucocu
+  - tassak
+  - taşşak
+  - trash
+  - ucube
+  - usbu cocu
+  - usbu çocu
+  - usbuçocu
+  - velet
   - yaragi
   - yaragim
+  - yarağı
+  - yarağım
+  - yarak
   - yarakkafa
   - yarakkafali
   - yaraklar
+  - yaraklı
   - yarakli
   - yarrak
   - yarraklar
   - yarram
+  - yavsak
+  - yavşak
+  - zenci
+  - zibidi
 sub:
-  - 0 ro p spu ev l adi
+  - "!bne"
+  - "@m-cık"
+  - "@m-k"
+  - "@m-koyim"
+  - "@m-v"
+  - "@m1cik"
+  - "@m1na"
+  - "@mcık"
+  - "@mcuk"
+  - "@mıcık"
+  - "@mık"
+  - "@mın4-koyim"
+  - "@mınakoyim"
+  - "@min4"
+  - "@minakoyim"
+  - "@mk"
+  - "@munakoyim"
+  - $erefsiz
+  - $iktir
+  - 0 ro p spu ev l adı
   - 0 ro rpssou cocugu
-  - 1k ya kole oluyorum
+  - 0-r-o-s-p-u
+  - 0-rospu
+  - 0.c.o.c.u.g.u
+  - 0ç-cocu
+  - 0rsp-
+  - 1-b-n-e
+  - 1b-n-e
+  - 1k ya köle oluyorum
   - 1numara lag server
-  - 31 cek
-  - 4n 4 ni sk ey m
-  - 4rspu evladi
-  - a k s k
-  - a m k
-  - a mcik
+  - 3-v-l-a-d
+  - 31 çek
+  - 31cek
+  - 3be_n1n
+  - 3be-n-in
+  - 3nayi-
+  - 4-m-k
+  - 4m-c-i-k
+  - 4m-cık
+  - 4m-cik
+  - 4m-ın-a
+  - 4m-koy-ayim
+  - 4m-koy-im
+  - 4m-koyarim
+  - 4m-q
+  - 4m-v
+  - 4m1n4k0y4y1m
+  - 4mın4koy4yım
+  - 4mk-
+  - 4mq-
+  - "4n 4 nı sk!ey m"
+  - 5-1-k
+  - 5-1-k-t-1-r
+  - 5-i-k-e-r-i-m
+  - 5-i-k-t-i-r
+  - 51-k
+  - 51k-erim
+  - 5iktir_git
+  - 5k-m
+  - 8-o-k
+  - 8-ok
+  - 9-0-t
   - a n n e s i n i s i k i m
-  - a3nani sqm
-  - a3nesinin a3ina soktugum
+  - a_m_c_ı_k
+  - a_m_k
+  - a_m_k_
+  - a_m_q
+  - a_m_q_
+  - a-m-c-ı-k
+  - a-m-k
+  - a-m-q
+  - a.m.c.i.k
+  - a.m.cik
+  - a.m.k
+  - a.m.k_
+  - a.m.k-
+  - a.m.k.
+  - a.m.q
+  - a.m.q-
+  - a.m.q.
+  - a.m.v
+  - a.mık
+  - a.mk
+  - "a*k s*k"
+  - "a*mcık"
+  - a3nanı sqm
+  - a3nesinin a3ına soktugum
+  - abaz4-n
   - adam ol
+  - aesir
   - aesir smp
+  - aesirde
   - aesirdeyim
   - aesire gelin
+  - aesirmc
   - aesirnet
   - aesirnetwork
-  - alah belani
+  - ag-zina
+  - ag-zina-scym
+  - agz-ina
+  - agzınas1cayim
+  - agzınas1cm
+  - agzina-s
   - alah belani versin
-  - all a h i ni si ke yim
+  - all a h ı nı si ke yim
   - allah bela
+  - allah belanı
+  - allah belanı versin
   - allah belani
   - allah belani versin
+  - allah senin belanı versin
   - allah senin belani
-  - allah senin belani versin
   - allaha sok
   - allaha sov
-  - allahin belasi
+  - allaha söv
+  - allahın ltsi
+  - allahını kitab
+  - allahını sik
+  - allahını siker
+  - allahını sker
   - allahin ltsi
   - allahini kitab
   - allahini sik
   - allahini siker
   - allahini sker
-  - allahsiz
-  - alll a ahi ni zz skey m
+  - allahsız
+  - alll a ahı nı zz skey m
+  - am bitii
+  - am feryadı
   - am got
+  - am göt
+  - am hoşafı
   - am kafa
   - am suyu
   - am yarrak
-  - amcigini
-  - amin evladi
-  - amin feryadi
+  - am_feryadi
+  - am_k
+  - am-c-ı-k
+  - am-cıh
+  - am-cık
+  - am-cik
+  - am-cukk
+  - am-k
+  - am-koy-arim
+  - am-koyim
+  - am-q
+  - am-skm
+  - am-skym
+  - am-v
+  - am.cıgı
+  - am.cık
+  - am.cıkkafa
+  - am.cigi
+  - am.cik
+  - am.ciklar
+  - am.ık
+  - am.ın
+  - am.ına
+  - am.ınakoyayım
+  - am.ınakoyim
+  - am.ınakoyum
+  - am.ınasokm
+  - am.ınçocuğu
+  - am.ında
+  - am.ından
+  - am.ını
+  - am.ınısikeyim
+  - am.ınısikim
+  - am.ınoglu
+  - am.ınoğlu
+  - am.ina
+  - am.k
+  - am.koyim
+  - am.koyum
+  - am.q
+  - am1n4k0y1m
+  - am1nakoyim
+  - am1nakoyum
+  - amc1-k
+  - amc1kkafalı
+  - amc1kland1
+  - amc1klandin
+  - amcı-g-ı
+  - amcı-k-lı
+  - amcı-k-tan
+  - amcığınızı
+  - amcık ağızlı
+  - amcık-herif
+  - amcık-kafa
+  - amcık-kafalı
+  - amcıkhosafı
+  - amcıklandı
+  - amcıq-
+  - amcıq-lar
+  - amcik
+  - amcik-
+  - amcklaryla
+  - amın evladı
+  - amın feryadı
+  - amın-a
+  - amın-feryadı
+  - amın-k-oyim
+  - amın-oğlu
+  - amına goyim
+  - amına k
+  - amına kodugum
+  - amına kodumun
+  - amına koyayım
+  - amına koyduğumun
+  - amına koyim
+  - amına-k
+  - amına-kodugum
+  - amına-koduğum
+  - amına-koyim
+  - amına-koyum
+  - amınakodugum
+  - amınakoyarim
+  - amınakoyayım
+  - amınakoyım
+  - amınakoyim
+  - amınasokarım
+  - amınasokum
+  - amınatofas
+  - amını sikeyim
+  - amını yırt
+  - amını-s
+  - amınoğluhayvan
+  - amina koyim
+  - aminakoy
+  - aminakoyarim
+  - aminakoyayım
   - aminakoyayim
+  - aminakoyim
   - aminasok
+  - amindayken
   - amini sikeyim
   - amini yirt
   - aminisik
   - aminisikeyim
+  - aminiyarraaniskiim
+  - amk çocuğu
   - amk kurdu
   - amk kurtu
-  - an a n iz s key im
-  - an anzin alayini skim
-  - an ne ni si ke ce gi mi
-  - an sini
-  - ana ns s ke yim
-  - anami sikin
-  - anami sikin lutfen
-  - anani sat
-  - anani sikerim
+  - amk kürdü
+  - amk_
+  - amk-
+  - amk.
+  - aml-arnzn
+  - amlı-
+  - amona-k
+  - amonak0yım
+  - amq-
+  - amq.
+  - amsalak-
+  - amsız-
+  - amuk-
+  - an a n ız s key im
+  - an ne ni si ke ce ği mi
+  - an. anzın. alayını skim
+  - an....sını
+  - an.anı
+  - an.anın
+  - an.anısikeyim
+  - an.anısikim
+  - an.anızın
+  - an.asını
+  - an.asınısatayım
+  - ana nş s ke yim
+  - anamı sikin
+  - anamı sikin lütfen
+  - anan1s1kerim
+  - anan1s1kım
+  - anan1zyrrak
+  - anan1zyrrk
+  - ananı
+  - ananı s
+  - ananı sikeyim
+  - ananı_
+  - ananı-s
+  - ananı-sıkm
+  - ananı-sikeyim
+  - ananı-sikim
+  - ananımı satıyon
+  - ananın
+  - ananın amı
+  - ananın amını
+  - ananın-k
+  - ananın-k-i
+  - ananın-ki
+  - ananıs_
+  - ananıs1kım
+  - ananıs1kiyim
+  - ananısikerim
+  - ananısikeyim
+  - ananısikim
+  - ananıslym1
+  - ananızın-
+  - ananızyrrk
+  - anani
   - anani sikeyim
-  - anani skim
   - anani skm
-  - ananimi satiyon
   - ananin ami
-  - ananin amini
   - ananisikerim
-  - anasini pazarliyor
+  - ananisikeyim
+  - ananiz-i
+  - ananiz-skm
+  - ananiz-skym
+  - ananiziskiyim
+  - ananizyrrk
+  - anas1n1satayim
+  - anasını pazarlıyor
+  - anasını sıktım
+  - anasını sik
+  - anasını siktim
+  - anasını skm
+  - anasını-s
+  - anasının amı
+  - anasının gözü
+  - anasınısatayım
+  - anasınısktıgımın
+  - anasız-
   - anasini sik
-  - anasini sikeyim
   - anasini siktim
   - anasini skm
   - anasinisktigimin
-  - anasni pazarliyor
+  - anasnı pazarlıyor
+  - anasns1kım
+  - anavrat-
+  - anına koy
+  - anına koyn
+  - anınakoynim
   - anina koy
   - anina koyn
   - aninakoynim
-  - anneni de yapam
-  - anneni sik
   - anneni sikeyim
-  - anneni sikim
   - anneni skim
   - anneni skm
-  - anneni yapam
   - annenide yapam
   - annesini
-  - annin amcuna koyarim
+  - annın amcuna koyarım
+  - anuna_k0yım
+  - aptal
   - aq kurdu
   - aq kurtu
+  - aq kürdü
+  - as1lmasana
+  - asiktir-
   - asllahini
+  - aşllahını
+  - at-kafası
+  - aternos
+  - atkafasi-
+  - attırdığım
+  - av-radını
+  - avrad-ini
+  - avradını siktirten
+  - ayagınıskm1
+  - ayklarmalrmsikerim
+  - b-o-k
+  - b.a.c.ı.n.ı
+  - b.a.s.t.a.r.d
+  - b.i.t.c.h
+  - b.o.k
+  - b.o.k.
+  - b.o.k.t.a.n
+  - b.o.k.u
+  - b.o.k.u.m
+  - b0k-
+  - ba-cını
+  - babaannesi
+  - babaannesi kaşar
+  - babası pezevenk
+  - bacak kadar
+  - bacı-sikik
+  - bacım sikiş
+  - bacını
+  - bacını sikeyim
+  - bacını-s
+  - bacısını elden gecırıyım
+  - bacısız-
+  - bacini
   - bacini sikeyim
-  - bacini skm
   - bacisini elden
-  - bacisini elden geciriyim
+  - balımı skim
   - balimi skim
   - baskaserveregel
   - baskasmpmegel
   - baskasunucuyagel
   - baskaswyagel
+  - belan1s1kım
+  - belan1vers1n
   - beles kole
+  - beleş köle
   - benim sunucu var
   - benim sunucum var
   - benimserveregel
   - benimsmpmegel
   - benimsunucumagel
   - benimsunucumagelin
+  - beyinsiz
+  - beyn1n1skm
   - bizimserveregel
   - bizimsmpmizagel
   - bizimsunucuyagel
@@ -495,163 +1992,498 @@ sub:
   - blokyamc
   - blokyanetwork
   - blokyasmp
-  - bok gibi
+  - blowjob
+  - bok gibi sunucu
+  - bok kafa
   - bok ye
+  - bok yoluna
+  - boka sarmak
   - boklu smp
   - boklu sunucu
   - boktan yetkililer
+  - bokubokuna
   - bokumu ye
   - bokunu ye
-  - boyle serveri s
-  - boyle sunucuyu s
+  - böyle serveri s
+  - böyle sunucuyu s
   - bu kurt
+  - bu kürt
   - buk gibi
+  - burnacılık
   - burnacilik
-  - canli yayina gelin
+  - c.u.n.t
+  - c1b1ll1yet
+  - canlı yayına gelin
   - chickensmp
+  - cibiliyeti bozuk
+  - cibiliyetsiz
+  - cibilliyetini
+  - cibilliyetsiz
+  - cinsel obje
   - ciplak fotolarimi
   - crepercraft
+  - ç.ü.k
+  - çıplak fotolarımı
+  - d-a-s-s-a-k
+  - d-a-ş-a-k
+  - d-a-ş-ş-a-k
+  - d.a.s.s.a.k
+  - d.a.ş.a.k
+  - d.a.ş.ş.a.k
+  - d.o.m.a.l
+  - daltassak1
+  - dalyan gibi
+  - dassak-
   - dassakkkk smp
+  - dassaklara
+  - daşak-
+  - daşşak-
+  - daşşakkkk smp
   - defol burdan kurt
+  - defol burdan kürt
   - defol kurt
+  - defol kürt
+  - dıkşın siktir
+  - dilsiz siktir
+  - dinsiz imansız
+  - domal
+  - domaltarak
+  - domaltırım
   - donut gelin
   - donut oynayan
   - donut smp
   - donuta gelin
   - donutsmp gelin
   - donutsmp oynayan
+  - döl israfı
   - dunyanin en kotu sunucusu
-  - ecdadini
+  - dünyanın en kötü sunucusu
+  - e.b.e.n.i
+  - e.b.e.n.i.n
+  - e.c.d.a.d.ı.n.ı
+  - eb-en
+  - eb-eni
+  - ebenin amı
+  - ebenin-a
+  - ec-dadını
+  - ecdadın1skm
+  - ecdadını
+  - elıne_verdım
+  - eline verdim
+  - eşek sıpası
+  - evlat olsa sevilmez
+  - ez ez
+  - ezik-
+  - f.a.h.i.ş.e
+  - f.c.k
+  - f.u.c.k
+  - f0llos_olmus
+  - fahişe evladı
+  - fantezi sikiş
+  - fck_u
   - fuck nigger
   - fuck niggers
+  - fuker-
+  - g-a-v-a-t
+  - g-ö-t
+  - g.a.v.a.t
+  - g.a.v.a.t.
+  - g.o.t
+  - g.ö.t
+  - g.ö.t.
+  - g.ö.t.e.l.e.k
+  - g.ö.t.l.e.k
+  - g.ö.t.u
+  - g.ö.t.u.n
+  - g.ö.t.u.n.e
+  - g.ö.t.u.n.u
+  - g.ö.t.v.e.r.e.n
+  - g.tveren
+  - g0t
+  - g0t_delıgı
+  - g0t_herıf
+  - g0t_oglanı
+  - g0tu_kalkmıs
+  - g0tunu_ye
+  - g0tunun_kılı
+  - g0tverenler
+  - g4v-at
+  - g7_karısı
+  - gabdiz-
+  - gav-at
+  - gavat
+  - gavat oğlu gavat
+  - gavatın_oglu
+  - gavur
+  - gavur tohumu
+  - gerı_zekalı
+  - gerı_zekali
+  - gerızekal1
+  - gerızekalı
+  - gerizekalı
+  - gerizekali
+  - gerizekalisin
+  - gerizekaliyin
+  - gevsek
+  - gevşek
+  - gi-berler
+  - gi-bis
+  - gi-biş
+  - gi-btiler
+  - giberim seni
   - git burdan kurt
-  - got kili
-  - got killari
-  - got laleleri
-  - got lalesi
+  - git burdan kürt
+  - go-t
+  - godoş evladı
+  - gora gavatı
   - got veren
+  - got_
+  - got-
+  - got-lek
+  - got-u
+  - got-un
+  - got-une
+  - got-unu
+  - got-veren
+  - got.
+  - gotler
+  - gotsmp
+  - gotume
+  - gotumemı
   - gotumemi
   - gotumesok
   - gotumesokcak
   - gotunesok
+  - gotunu
   - gotunu s1key1m
   - gotunu sikeyim
-  - gotunu ver
+  - göt deliği
+  - göt feryadı
+  - göt herif
+  - göt kılı
+  - göt lalesi
+  - göt oğlu
+  - göt veren
+  - göt-ü
+  - götten bacaklı
+  - götü başı ayrı oynamak
+  - götü kalkık
+  - götü_bası
+  - götünekoyim
   - gt veren
+  - gu_sulu
+  - gup_guru
+  - gv-nt
+  - h-a-s-i-k-t-i-r
+  - h.a.s.i.k.t.i.r
+  - h.a.s.i.k.t.i.r.
+  - h.a.s.s.i.k.t.i.r
+  - h4yvannoğlu
+  - ha-siktir
   - hakiki mal
+  - has-iktir
+  - haysıyetsız1
+  - haysiyet-siz
+  - haysiyetsiz
+  - hepinizin anasını
   - hepinizin anasini
+  - herıfın_oglu
+  - hıyar ağası
   - hileni si
+  - huur çocuğu
+  - huur_cocu
+  - i-b-n-e
+  - i.b.n.e
+  - i.b.n.e.l.e.r
+  - i.d.i.o.t
+  - ib-ne
+  - ibne kılıklı
+  - ibne torunu
+  - ibne_evladı
+  - ibne-ler
+  - ibne.
+  - imansız
+  - it dölü
+  - it herif
+  - it oğlu it
+  - it soyu
+  - it_oğlu_it
+  - it-oğlu
+  - johnny sıns
   - johnny sins
   - johnnysins
+  - johny sıns
   - johny sins
-  - k rt bac1sin1
-  - k7rtleri yak
+  - k-a-h-p-e
+  - k-a-l-t-a-k
+  - k-a-n-c-ı-k
+  - k.a.h.b.e
+  - k.a.h.p.e
+  - k.a.h.p.e.
+  - k.a.l.t.a.k
+  - k.a.l.t.a.k.
+  - k.a.n.c.ı.k
+  - k.a.ş.a.r
+  - k.e.r.h.a.n.e
+  - k.o.d.u.m.u.n
+  - "k#rt bac1sın1"
+  - k7rtlerı yak
   - k8rt or os p u
   - kabe nzi ya kay
   - kabenizi yakay
-  - kafani skim
-  - kafani skm
+  - kafanı skim
+  - kafanı skm
+  - kahbe
+  - kahpe
   - kalk sg
-  - kanalima abone
-  - kanalima abone olup son videosuna
-  - kanalima gelin
+  - kaltak karı
+  - kanalıma abone
+  - kanalıma abone olup son videosuna
+  - kanalıma gelin
+  - kancık evladı
+  - karı kılıklı
+  - karisini-
+  - kaşar herif
+  - kav-t
+  - kaz kafalı
+  - kerhanelerde
   - kes hirram
-  - kick yayindayiz
-  - kickte yayindayim
-  - kickte yayindayiz
+  - kevaşe ruhlu
+  - kıllı göt
+  - kıvırtma siktir
+  - kızıl fahişe
+  - kick yayındayız
+  - kickte yayındayım
+  - kickte yayındayız
+  - kitabını sik
   - kitabini sik
+  - kitabnını
+  - kitabnını sqrim
   - kitabnini
   - kitabnini sqrim
-  - kitapsiz
-  - kole alinir
-  - kole arayan
-  - kole ariyan
-  - kole isteyen var mi
-  - kole olmak isteyen
+  - kitapsız
+  - ko-dugum
+  - koduğmunun
+  - koduğumun çocuğu
+  - kolay ez
   - kole olunur
+  - köle alınır
+  - köle arayan
+  - köle arıyan
+  - köle isteyen var mı
+  - köle olmak isteyen
+  - köle olunur
+  - köpek soyu
   - kumda pipinle oyna
-  - kur an atcam
+  - "Kur'an atcam"
   - kuran atcam
-  - kurde verimlilik basilmaz
-  - kurde verimlilik verilmez
-  - kurde verimlilik vermeyin
   - kurde verimlilik yok
-  - kurdun teki
   - kurt dolu
   - kurt dusmani
   - kurt dusmaniyim
   - kurt dusmanligi
-  - kurt iste nolcak
   - kurt iti
   - kurt kopek
   - kurt musun nesin
   - kurt pic
   - kurt picer
   - kurt pici
-  - kurt velet
-  - kurte verimlilik basilmaz
-  - kurte verimlilik verilmez
-  - kurte verimlilik vermeyin
   - kurte verimlilik yok
   - kurtlere verimlilik yok
-  - kurtsun iste
   - kurtun teki
-  - kutrmusun
-  - kutrmusun sen
+  - kürde verimlilik basılmaz
+  - kürde verimlilik verilmez
+  - kürde verimlilik vermeyin
+  - kürde verimlilik yok
+  - kürdün teki
+  - kürt dölü
+  - kürt düşmanı
+  - kürt düşmanıyım
+  - kürt düşmanlığı
+  - kürt işte nolcak
+  - kürt iti
+  - kürt köpek
+  - kürt müsün nesin
+  - kürt piç
+  - kürt piçer
+  - kürt piçi
+  - kürt velet
+  - kürte verimlilik basılmaz
+  - kürte verimlilik verilmez
+  - kürte verimlilik vermeyin
+  - kürte verimlilik yok
+  - kürtlere verimlilik yok
+  - kürtsün işte
+  - kütrmüsün
+  - kütrmüsün sen
   - lag server
   - lag smp
   - lag smpniz
+  - lagsmp
   - lan kurt
+  - lan kürt
   - lanet kurt
+  - lanet kürt
   - lantenet
   - lantenetvork
   - lantenetwork
   - lantenew
+  - lantenw
   - les kurt
+  - leş kürt
+  - lunosmp
+  - m_a_l
+  - m-a-l
+  - m.a.l
   - makarasmp
+  - mal kafa
+  - mal-afat
+  - maldovya gavatı
+  - malsın
+  - manyak herif
+  - mastırbasyon
+  - masturbasyon
+  - mastürbasyon
   - mekkeyi sik
   - mekkeyi sk
   - mekkeyi sk eyim
+  - memeler
+  - memelerini
+  - mincikliyim
+  - monakkoluyum
+  - motherfucker
   - myriasmp
+  - negro
+  - negros
+  - ni gger
+  - niga
+  - niger
   - nigerrite
+  - nigga
+  - niggas
+  - nigger
+  - niggers
   - nude atana
-  - nude satilir
-  - o a n a n i
+  - nude satılır
+  - o a n a n ı
   - o cocugu
+  - o çocuğu
   - o kurt
-  - oc kurt
+  - o kürt
+  - o_r_o_s_p_u
+  - o-r-o-s-p-u
+  - o.çocu
+  - o.çocuğu
+  - o.çocukları
+  - o.r.o.s.p.u
+  - oc kürt
+  - ococugu
+  - oç evladı
+  - oç kürt
+  - oçocuğu
   - ogospular
+  - ogospuları
   - ogospulari
+  - or-ospu
+  - oro-spu
+  - orosbu
+  - orosbucocuu
+  - orospu
   - orospu coc
-  - orospu cocugu
-  - orospu cocuk
+  - orospu çoc
+  - orospu çocuğu
+  - orospu dölü
+  - orospu evladı
+  - orospu-ç
   - orospucocugu
+  - orospucocuklugu
+  - orospuçocuğu
+  - orsp-
+  - orsp-cocu
+  - oruspu
+  - oruspuçocuğu
+  - osuruktan teyyare
+  - otistik
   - otuz bir
+  - ozurlu
+  - p-i-ç
+  - "p!ç"
+  - p.e.z.e.v.e.n.k
+  - p.i.c
+  - p.i.ç
+  - p.i.ç.
+  - p.u.ş.t
+  - p.z.v.n.k
+  - p0rn0
   - para atana nude
+  - pe-zevenk
+  - pezevengin
   - pezevenk
+  - pezevenk oğlu
+  - pezevenklik
+  - pezo-
   - pic kurt
+  - picler
+  - piç kurusu
+  - piç kürt
+  - piçler
   - ping smp
   - pis kurt
+  - pis kürt
   - pislik kurt
-  - play makarasmp
-  - pok gibi
+  - pislik kürt
+  - play.makarasmp
   - pok gibi smp
   - pok gibi sunucu
   - pok gibi sw
   - pompalmasyon
+  - punracı
+  - purnacı
+  - purnacılık
   - purnacilik
   - purnahub
   - puyna yapan
+  - pzvnk
+  - qmına
   - qotu olan
+  - qotu yıyen
   - qotu yiyen
-  - s k i c m
-  - s kerim
+  - r.s.ç
+  - r.spu
+  - s-i-k
+  - s-i-k-t-i-r
+  - "s!kt!r"
+  - s.i.k
+  - s.i.k.e.y.i.m
+  - s.i.k.i.m
+  - s.i.k.i.ş
+  - s.i.k.m.e
+  - s.i.k.t.i.r
+  - s.i.k.t.i.r.
+  - s.k.m
+  - s.keyim
+  - s.kt
+  - s.ktr
+  - s.o.k.a.r.ı.m
+  - s.o.k.a.y.ı.m
+  - "s*k*i*c*m"
+  - "s*kerim"
+  - s1-k
+  - s1-kerim
+  - s1-kt1r
+  - s1k1$
+  - s1k1s
+  - s2mde
   - s2mde degil
   - s2mde deil
+  - s2mden
+  - s2me
   - s2nde bir sey
-  - seni kurt
-  - senin kolen olayim
-  - senni benim anam seni s i ker
+  - sa-kso
+  - salak
+  - seni kürt
+  - senin kölen olayım
+  - "senni benim anam seni s:i:ker"
   - servereyagel
   - servereyagelin
   - serverime beklerim
@@ -664,18 +2496,71 @@ sub:
   - serverimegelsene
   - serverimizagel
   - serverimizagelin
-  - sg burdan kurt
+  - sg burdan kürt
   - sg git
   - sg lan
   - sg sw
-  - sg swden
-  - si mee
+  - sggit
+  - sıctım
+  - sıçtım
+  - si-kerim
+  - si-ktir
+  - si.kerim
+  - "si* mee"
+  - sierim
   - sik tigim
+  - sik_
+  - sik-
+  - sik-erim
+  - sik-ik
+  - sik-im
+  - sik-in
+  - sik-tir
+  - sik.
+  - sikcem
+  - sikecek
+  - sikerim
+  - sikesicenin
+  - siki tutmak
+  - sikicem
+  - sikik herif
+  - sikildiini
+  - sikilesice
+  - sikimsonik
   - sikiselim
   - sikismek
+  - sikişelim
+  - sikişmek
+  - sikmee
+  - sikmisligim
+  - sikrim
+  - siksem
+  - sikseyidin
+  - siksinbaya
   - siksinler
-  - siktir git kurt
-  - smp aternos me
+  - siktigimin
+  - siktigiminin
+  - siktiğimin
+  - siktiğiminin
+  - siktiiminin
+  - siktiminin
+  - siktir
+  - siktir git
+  - siktir git kürt
+  - siktir git lan
+  - siktir-git
+  - siktirhadi
+  - siktiririm
+  - siktiriyor
+  - siktirolgit
+  - siqrim
+  - siqtir
+  - sk-m
+  - sk-tr
+  - sk.m
+  - skerim
+  - skremim
+  - smp.aternos.me
   - smpme gel
   - smpme gelin
   - smpme gelmek
@@ -685,14 +2570,23 @@ sub:
   - smpmegelsene
   - smpmizagel
   - smpmizagelin
-  - sonoyuncu gelin
+  - so-karım
+  - so-kayım
+  - sok-arım
+  - sokarmkoduumun
+  - sokcak
+  - sokcam
+  - soktuğumunun
+  - sokucam
+  - sokucem
   - sonoyuncuya gelin
   - sq git
   - sq sw
-  - sq swden
-  - sqkerim boyle sunucuyu
+  - sqgit
+  - sqkerim böyle sunucuyu
+  - sqrim
   - su kurt
-  - sulaleni
+  - sulalen1z1
   - sunucuma beklerim
   - sunucuma gel
   - sunucuma gelin
@@ -704,25 +2598,71 @@ sub:
   - sunucumuzagel
   - sunucumuzagelin
   - suriyeli
+  - surspu
+  - surtuk
+  - sülalen1z1
+  - sülaleni
+  - sülalenizi
+  - sülalesini siktigim
+  - swmegel
   - swmegelin
+  - swyegel
   - swyegelin
+  - ş.e.r.e.f.s.i.z
+  - şerefsizim
+  - şerefsizliği
+  - şerefsizlik
+  - şu kürt
+  - tanıdıklarını sik
   - tanidiklarini sik
+  - tarrakimin
+  - trpvp
   - turkiyenin en kotu sunucusu
   - turksmp ifsa
-  - uruspi cucuk
+  - turksmp ifşa
+  - türkiyenin en kötü sunucusu
+  - ucube
+  - uruspı cucuk
   - uruspu cocuk
   - uruspu cucuk
   - usbu cocugu
-  - usbu cocuk
-  - usbucocugu
-  - velet kurt
+  - usbu çocuğu
+  - usbuçocuğu
+  - veledizina
+  - velet kürt
+  - weledizina
   - y r k
+  - y.a.r.a.k
+  - y.a.r.a.k.
+  - y.a.r.r.a.k
+  - y.a.v.ş.a.k
+  - y.rak
+  - ya-rrak
   - yapacaginiz sunucunun
+  - yapacağınız sunucunun
+  - yar-rak
   - yarak am
-  - yarragim
+  - yaramın başı
+  - yaramin basi
+  - yaraminbasi
+  - yararmorospunun
+  - yarragım
+  - yarragindan
+  - yarrağım
+  - yarrak
   - yarrak got
+  - yarrak göt
+  - yarram
+  - yarram1nbaş1
+  - yarramın basi
+  - yarramın başı
   - yarramin basi
-  - yayindayim gelin
+  - yarraminbasi
+  - yarraminbaşı
+  - yarrrak
+  - yav-sak
+  - yavşak oğlu
+  - yayındayım gelin
   - yedi ceddini
   - yeniserveregel
   - yenismpyagel
@@ -732,58 +2672,828 @@ sub:
   - yetim o e
   - yetim oc
   - yetim oe
-  - youtube kanalim
-  - yt kanalim
+  - yogurtlayam
+  - yoğurtlayam
+  - youtube kanalım
+  - "yr**m"
+  - yrrk.o.ç.
+  - "yrrk@mc1k"
+  - yt kanalım
+  - zenitmc
+  - zulliyetini
 compact:
+  - 0ç
+  - 0r0spu1
+  - 0rospu
+  - 0rspu
+  - 1bn3
+  - 1bne
+  - 1bneler
+  - 1bnelik
+  - 1pn3
+  - 1pne
+  - 1pnelik
+  - 1toğlu
+  - 1toğluit
+  - 1tsoyu
+  - 31cek
+  - 31çik
+  - 3be
+  - 3may1
+  - 3nay1
+  - 3nayi
+  - 4hm4k1
+  - 4m1k
+  - 4m1na
+  - 4mcuk
+  - 4mık
+  - 4mk
+  - 4mk1
+  - 4mkoyim
+  - 4mkoyum
+  - 4mq
+  - 4ptal1
   - 4rspu
+  - 51kt1r
+  - 51ktirgit
+  - 5ikerim
+  - 5ikik
+  - 5iktir
+  - 5skm
+  - 8ok
+  - 90t
+  - a.q
+  - abaz1an
+  - abaz4
+  - abaz4n
+  - abaza
+  - abazan
+  - abazn
+  - aesir
+  - aesirde
+  - aesire
   - aesirmc
+  - aesirnet
+  - aesirnetwork
+  - ag
+  - agla
+  - agzınascm
+  - ağla
+  - ağzına
+  - ahm4k1
+  - ahmak
+  - akp1l1
+  - alag4t
+  - alagav4t
+  - alagavat
+  - alahını
+  - alahısz
+  - alahini
+  - alahisz
+  - alahsız
+  - alahsiz
+  - allahını
+  - allahısz
+  - allahini
+  - allahisz
+  - allahsısz
+  - allahsız
+  - allahsiz
+  - allha
+  - am
+  - "am*ık"
+  - am1n4
+  - am1na
+  - am1nako
+  - am1nasokm
+  - am1noglu
+  - am4na
+  - ambiti
+  - amc1g1
+  - amc1g1n
+  - amc1g1n1
+  - amc1g1nı
+  - amc1g1niz
+  - amc1g1zı
+  - amc1k
+  - amc1klama
+  - amc1klan
+  - amc1ks1z
+  - amc1m
+  - amc1q
+  - amcığ
+  - amcığı
+  - amcığın
+  - amcığını
+  - amcıh
   - amcık
+  - amcıklama
+  - amcıksın
+  - amcıq
+  - amcigi
   - amcik
+  - amciksın
+  - amck
+  - amckl
+  - amcklama
+  - amckta
+  - amcktan
+  - amcug
+  - amcuh
+  - amcuk
+  - amcukk
+  - amcukl4r
+  - amg
+  - amgk
+  - amı
+  - amık
+  - amına
+  - amınakke
+  - amınakkke
+  - amınako
+  - amınasok
+  - amınasokm
+  - amında
+  - amını
+  - amınoglu
+  - amınoğlu
+  - amınun
+  - amıs1n
+  - amısına
+  - amısını
+  - amik
+  - amina
+  - aminakke
+  - aminako
+  - aminakoy
+  - aminakoyim
+  - aminda
+  - amindan
+  - amini
+  - aminoglu
+  - amiyum
+  - amjık
+  - amjk
   - amk
+  - amk1
+  - amk1m
+  - amkafa
+  - amkç
+  - amkk
+  - amkkk
+  - amkocu
+  - amkoyim
+  - amlarnzn
+  - amlı
+  - amm
+  - ammak
+  - ammk
+  - ammna
+  - amn
+  - amna
+  - amnako
+  - amnda
+  - amndaki
+  - amngtn
+  - amnn
+  - amnskm
+  - amnskm1
+  - amnskym
+  - amnskym1
+  - amona
   - amq
+  - amq1
+  - ams1zlar
+  - amsalak
+  - amsız
+  - amsiz
+  - amsuratlı
+  - amsz
+  - amter1
+  - amteri
+  - amugaa
+  - amuğa
+  - amuk
+  - amuna
+  - amunskm1
+  - amuş
+  - amv
+  - anaaann
+  - anal
+  - analarn
+  - anan
+  - anan1
+  - anan1s
+  - anan1s1k
+  - anan1z1n
+  - anana
+  - ananc1
+  - anandan
+  - ananı
+  - ananın
+  - ananınki
+  - ananıs
+  - ananıs1km
+  - ananısıkm
+  - ananıslym
+  - ananızın
+  - anani
+  - ananin
+  - ananizi
+  - anann
+  - ananz
+  - anas
+  - anas1
+  - anas1n1
+  - anas1n1n
+  - anas1nı
+  - anası
+  - anasını
+  - anasının
+  - anasız
+  - anasi
+  - anasini
+  - anavrat
+  - anay
+  - anayin
+  - andav4l
+  - andavall1
+  - angut
+  - angut1
+  - anına
+  - anınaa
+  - anina
+  - annen
+  - anneni
+  - annenin
+  - annesiz
+  - anuna
+  - apt4l1
+  - aptal
+  - aptal1
+  - aq
+  - aq1
+  - as1kt1r
+  - asiktir
+  - asllahını
+  - asllahini
+  - ass
+  - asurspu
+  - aşağılık
+  - aşllahını
+  - aşllahini
+  - atkafası
+  - atkafasi
+  - atmık
+  - attrrm
+  - auzlu
+  - avradın1s
+  - avradını
+  - avradini
+  - avrat
+  - aw
   - awk
   - awq
+  - aww
+  - awww
+  - awwww
+  - azdım
+  - azdır
+  - azdır1c1
+  - azdırıcı
+  - b0k
+  - b0kyiyen
+  - b1zır1
+  - b1zırlama
+  - b4cıs1
+  - babanı
+  - babanın
+  - babani
+  - babası
+  - bac1n1
+  - bac1n1n
+  - bac1s1
+  - bac1s1k
+  - bacağına
+  - bacına
+  - bacını
+  - bacının
+  - bacınıskm
+  - bacıs1k1k
+  - bacısız
+  - bacısız1
+  - bacısikik
+  - bacini
+  - bacn
+  - bacndan
+  - bacy
+  - bamy4
+  - bamyap1p1
+  - bastard
+  - basur
+  - basur1
+  - bedev1
+  - beyinsiz
+  - bızır
+  - bitch
+  - biti
+  - biting
+  - blowjob
+  - bok
+  - boka
+  - bokbok
+  - bokcuklar
+  - bokça
+  - bokhu
+  - bokkkumu
+  - boklar
+  - boklu
+  - boktan
+  - boku
+  - bokum
+  - bombok
+  - boner
+  - bosalmak
+  - boşalmak
+  - boynuzlu
+  - boynuzlu1
+  - buku
+  - burna
+  - burnacı
+  - bülük
+  - büyükbaş
+  - c0mmer
+  - c1ns1z
+  - c1v1k
+  - c4h1l
+  - cahil
+  - cebel1
+  - cedd1n1
+  - cenabet
+  - cıbıl1
+  - cıbılsız
+  - cıvık1
+  - cıvıtm4
+  - cocugu
   - craftrise
+  - çocuğu
+  - çocuğudur
+  - çocukları
+  - çük
+  - d0mal
+  - d0maldı
+  - d0maldın
+  - d0malt
+  - d1ktıler
+  - d1ldo
+  - d1ngıl
+  - d1ns1z
+  - d1rek
+  - d4mızlık
+  - d4şak
+  - dalaksız
+  - dalkavuk
+  - dall4ma
+  - dallama
+  - daltassak
+  - daltassk
+  - dalyarak
+  - dalyarr4k
+  - dalyarrak
+  - dangalak
+  - dangalak1
+  - danyal
+  - dassag1
+  - dassag1m
+  - dassagi
   - dassak
+  - daşağı
+  - daşak
+  - daşak1
+  - daşdaş
+  - daşşağı
   - daşşak
+  - daşşak1
+  - daşşakkkk
+  - deliği
+  - deyyus
+  - dıyrak
+  - diktim
+  - dildo
+  - dingil
+  - dingilini
+  - dinsiz
+  - dkerim
+  - domal
+  - domalan
+  - domaldı
+  - domaldın
+  - domalık
+  - domalıyor
+  - domalmak
+  - domalmış
+  - domalsın
+  - domalt
+  - domaltıp
+  - domaltır
+  - domaltip
+  - domaltmak
+  - domuz
+  - donut
   - donutsmp
+  - döl1
+  - döl1srafı
+  - döllek
+  - dölleme
+  - dölsüz
+  - dölsüz1
+  - dönek
+  - dumbuk
+  - dümbelek
+  - dümbük
+  - dürzü
+  - eben
+  - eben1
+  - eben1n
+  - eben1nk1
+  - ebene1
+  - ebenın
+  - ebenınkı
+  - ebeni
+  - ebenin
+  - ebeninki
+  - ebenizi
+  - ebleh
+  - ecdad1n1
+  - ecdad1nız
+  - ecdadın1
+  - ecdadını
+  - ecdadini
+  - embesil
+  - emcuk
+  - emcük
+  - emcük1
+  - emcükle
+  - emicem
+  - enay1
+  - enay1ler
+  - ergen1
+  - escort
+  - eskort
+  - eskort1
+  - evlad1
+  - evlad1m
+  - evladı
+  - evladın1
+  - ez
+  - ez1k
+  - ez1kler
+  - ez1ksin
+  - ezik
+  - ezz
   - ezzz
+  - ezzzz
+  - ezzzzz
+  - f0llos
+  - f1cktir
+  - f1stan
+  - f4h1se
+  - f4h1şe
+  - f4hıse
+  - f4hışe
+  - f4hise
+  - fahise
+  - fahişe
+  - fck
+  - fcku
+  - feriştah
+  - ferre
+  - feryad1
+  - feryadı
+  - feryat1
+  - fısatçı
+  - folloş
+  - foseptik
+  - fuck
+  - fucker
+  - fuckin
+  - fucking
+  - fuker
+  - "g*t"
+  - "g*tü"
+  - g0bek
+  - g0t
+  - g0tveren
+  - g1b1s
+  - g1b1ş
+  - g1ber
+  - g1berim
+  - g1berler
+  - g1bmek
+  - g1bt1ler
+  - g4v4t
+  - g4v4t1
+  - g4vat
+  - g4vurluk
+  - gabdız
+  - gabdız1
+  - gancık1
+  - garbage
+  - gavad
+  - gavat
+  - gavat1
+  - gavatlar1
+  - gavatn
+  - gavur
+  - gavur1
+  - gay
+  - geber
+  - geberik
+  - gerdanl1k
+  - gerizekalı
+  - gerzek
+  - geveze1
+  - gevsek
+  - gevşek
+  - gıberım
+  - gıberler
+  - gıbıs
+  - gıbısler
+  - gıbtıler
+  - giberim
+  - giberler
+  - gibis
+  - gibiş
+  - gibmek
+  - gibtiler
+  - girsin
+  - git
+  - godos
+  - godos1
+  - godoş
+  - godoş1
+  - godumun
+  - goot
+  - got
+  - gotelek
+  - gotlalesi
+  - gotlek
+  - gotlu
+  - gotten
+  - gotu
+  - gotum
+  - gotun
+  - gotundeki
+  - gotunden
+  - gotune
+  - gotunu
+  - gotveren
+  - goyiim
+  - goyum
+  - goyuyim
+  - goyyim
+  - göd0s1
+  - göd0ş1
+  - göt
+  - götelek
+  - götelek1
+  - götlalesi
+  - götlek
+  - götoğlanı
+  - götoş
+  - götten
+  - götü
+  - götün
+  - götüne
+  - götünü
+  - götveren
+  - gtelek
+  - gtn
+  - gtnde
+  - gtnden
+  - gtne
+  - gtt
+  - gtten
+  - gtveren
+  - gusulsuz1
+  - gusülsüz
+  - gvnt
+  - gvnt1
+  - gvt
+  - h0varda
+  - h4s1kt1r
+  - h4s1ktır
+  - h4siktir
+  - h4ss1kt1r
+  - h4ssiktir
+  - h4yin
+  - h4ynın
+  - h4yvan
+  - hadım1
+  - haksız1
+  - halıs1z
+  - has1kt1r
+  - hasihtir
+  - hasiktir
+  - hassikome
+  - hassiktir
+  - hassittir
+  - hayvan
+  - helallı
+  - hergele
+  - hırbo
+  - hırdav4t
+  - hırsız
+  - hırt1
+  - hıyarto
   - hirram
+  - hoduk
+  - hoşafı
+  - hödük
+  - hsktr
+  - hsktr1
+  - huur
+  - ıbne
+  - ıbnelık
+  - ıbnelık1
+  - ıbnetor
+  - ıtoğluıt
+  - ibina
+  - ibine
+  - ibinenin
+  - ibinetor
+  - ibne
+  - ibnedir
+  - ibneler
+  - ibneleri
+  - ibneliği
+  - ibnelik
+  - ibnelri
+  - ibnemsi
+  - ibneni
+  - ibnenin
+  - ibnerator
+  - ibnesi
+  - idiot
+  - idiyot
+  - iffetsiz
+  - imansız1
+  - imansiz
+  - imansz
+  - ipne
+  - iserim
+  - işerim
+  - itoğlu
+  - jigolo
+  - johnny
+  - johnnysins
+  - johny
+  - johnysins
+  - k4hbe
+  - k4hpeler
+  - k4ltak
+  - k4ncık
+  - kafam
+  - kafasız
+  - kafasiz
+  - kahbe
+  - kahbe1
+  - kahpe
+  - kahpenin
+  - kaka
+  - kalleş
+  - kaltağ
+  - kaltak
+  - kaltak1
+  - kancığ
+  - kancık
+  - kancık1
+  - kancik
+  - kappe
+  - kar1n1
+  - kar1s1
+  - karhane
+  - karını
+  - karısını
+  - kaşar
+  - kavat
+  - kavatn
+  - kavt
+  - kaypak
+  - kayyum
+  - kerane
+  - kerhane
+  - kevase
+  - kevaş1
+  - kevaş1e
+  - kevaşe
+  - kevvase
+  - kılkuyruk
+  - kitapsiz
+  - kodugum
+  - koduğmun
+  - kodumun
+  - kodumunun
+  - koduumun
+  - korkak
+  - koyiiym
+  - koynim
+  - koyyim
+  - köpoğlu
+  - krar
+  - kukudaym
+  - kurusu
+  - laciye
+  - lagsmp
+  - lavuk
+  - liboş
+  - m.k
+  - m.q
+  - "m@l"
+  - m4l4f4t1
+  - madafaka
+  - mal
+  - malafat
+  - malafat1
+  - malafatçı
+  - malak
+  - maldovya
+  - malsın
+  - malsi
+  - malsin
+  - many4k1
+  - manyak
+  - manyak1
+  - mcik
+  - meme
+  - mezveleli
+  - minaamcık
+  - mk
+  - mna
+  - mq
+  - mudik
+  - müptezel
+  - n00b
+  - namussuz
   - negro
+  - niga
   - niger
+  - nigerrite
+  - nigga
   - nigger
+  - noob
+  - nude
+  - o.ç
+  - o.çocuğu
+  - oc
+  - oclar
+  - ocler
+  - ocsun
+  - ocsunuz
+  - ocugu
+  - ocuu
+  - ocuun
+  - oç
+  - OÇ
+  - oe
+  - œ
+  - oeler
+  - œler
+  - oesiniz
+  - oglan
+  - oglan1
+  - oglan1n
+  - oglu
+  - ogospular
+  - ogospuları
+  - oğlan
+  - oğlancı
+  - oğlu
+  - ol
   - omk
+  - oral
+  - orcocugu
+  - orcocuk
+  - orçocuğu
+  - orçocuk
+  - orevladı
+  - orevladi
+  - orevlat
+  - orosb
   - orosbi
-  - orosp
+  - orosbu
   - orospu
-  - orspu
-  - p1c
-  - p1ç
-  - pezevenk
   - pic
-  - piç
-  - porno
-  - purna
-  - puyna
-  - pzvnk
-  - s2m
-  - s2nde
   - siktir
-  - siqtir
-  - sktr
-  - sonoyuncu
-  - sqter
-  - sqtir
-  - sqtr
-  - tassak
-  - taşşak
   - yarak
+  - yaraminbasi
   - yarrak
-  - yarram
+  - yarraminbasi
 safe:
   - a tamam
   - aglayarak
   - aha koyim
+  - akilli
   - alam
   - alamadi
   - alamadik
@@ -840,6 +3550,7 @@ safe:
   - anlamam
   - anlayarak
   - arayarak
+  - as
   - atam
   - atamadi
   - atamadik
@@ -869,6 +3580,7 @@ safe:
   - bayramini
   - bayramlik
   - bayramliklar
+  - bb
   - beklemem
   - ben kurdum
   - bilemiycem
@@ -902,6 +3614,7 @@ safe:
   - bulamam
   - bulmam
   - buyu kitabi
+  - bye
   - calkalayarak
   - carpicak
   - carpicam
@@ -917,13 +3630,17 @@ safe:
   - cocuklar
   - cok kasar
   - cok sukur
+  - control
+  - ctrl
   - dayayarak
+  - dc
   - dc sart
   - defa mc
   - defa mc i
   - deliksiz
   - demem
   - dinlemem
+  - discord
   - do it
   - docent
   - dol
@@ -956,7 +3673,6 @@ safe:
   - esc bas
   - esc tusu
   - escape
-  - escort
   - escorting
   - escye bas
   - eski
@@ -966,11 +3682,11 @@ safe:
   - eskisi
   - eskiye
   - eskiyle
-  - eskort
   - eskortluk
   - etmem
   - evcil kurt
   - eyvallah
+  - eyw
   - ezdim
   - ezer
   - ezerim
@@ -995,6 +3711,7 @@ safe:
   - gidem
   - gidemiycem
   - gitmem
+  - gokturk
   - gokturkcraft
   - goremicem
   - goremiycem
@@ -1015,10 +3732,13 @@ safe:
   - goturup
   - goturur
   - goturuyom
+  - gunaydin
   - hamam
   - haslayarak
   - hazirlayarak
   - here i am
+  - hg
+  - hosgeldin
   - i am
   - i am fine
   - i am just
@@ -1042,6 +3762,7 @@ safe:
   - it
   - itk
   - itm
+  - iyi geceler
   - kacmam
   - kalam
   - kalamam
@@ -1072,7 +3793,6 @@ safe:
   - kasariz
   - kasarken
   - kasarmak
-  - kasiyoo
   - kasiyor
   - kaynayarak
   - kescek
@@ -1097,7 +3817,6 @@ safe:
   - kopek
   - kopekler
   - kordinat
-  - korkak
   - korkmam
   - korkmam ki
   - korkmamki
@@ -1144,9 +3863,11 @@ safe:
   - kutlayarak
   - lastik
   - masallah
+  - msg
   - musluman
   - muzik
   - napacam
+  - napcam
   - napicagini
   - napicagiz
   - napicak
@@ -1156,13 +3877,17 @@ safe:
   - napicam
   - napican
   - napicaz
+  - napion
+  - napiyon
+  - nasilsin
   - naspicam
+  - nbr
+  - nbrr
   - netherit
   - netherite
   - normal
   - normalde
   - numarali
-  - oc
   - ocagi
   - ocak
   - ocakta
@@ -1176,6 +3901,7 @@ safe:
   - ocunu
   - ocunuz
   - odun kasar
+  - ok
   - olabilirmisin
   - olamam
   - otlayarak
@@ -1186,7 +3912,11 @@ safe:
   - parlayarak
   - patlayarak
   - paylayarak
+  - pazar
+  - pazara
   - pazara koyim
+  - pazardan
+  - pazartesi
   - pc
   - pcde
   - pcden
@@ -1224,6 +3954,7 @@ safe:
   - remzie
   - remzik
   - ruzruz
+  - sa
   - saglayarak
   - saklayarak
   - sallayarak
@@ -1356,6 +4087,8 @@ safe:
   - tapicam
   - tarayarak
   - temiz
+  - tesekkur
+  - tesekkurler
   - teyze
   - tez
   - teze
@@ -1372,9 +4105,9 @@ safe:
   - topic
   - toplayarak
   - toplayarakk
+  - tpa
   - tug dususu
   - turksmp
-  - turksmpnet
   - tutam
   - tutamam
   - tutmam
@@ -1388,6 +4121,7 @@ safe:
   - vermem
   - vitamin
   - where i am
+  - who am
   - who i am
   - xp kasar
   - ya tamam
@@ -1403,6 +4137,8 @@ safe:
   - yapamam ki
   - yapamamki
   - yaparak
+  - yapcam
+  - yapcaz
   - yapica
   - yapicagimizi
   - yapicagini
@@ -1456,40 +4192,18 @@ safe:
   - yolyolcusuyum
   - yutam
   - yutamam
-  - ziplayarak
-  - zirlayarak
-  - zorlayarak
   - zar
   - zarf
   - zaruri
-  - zarina
-  - pazar
-  - pazartesi
-  - pazardan
-  - pazara
   - zeka
   - zekali
-  - zekalı
-  - zekasin
   - zekasin
   - zekice
-  - zekiceydi
-  - akilli
-  - akıllı
-  - yapıcam
-  - yapıcan
-  - yapıcak
-  - yapıcaz
-  - yapıcak
-  - yapıcamda
-  - yapcam
-  - yapcaz
-  - napcam
-  - napcaz
-  - kapcam
+  - ziplayarak
+  - zirlayarak
+  - zorlayarak
 rival-servers:
   - aesir
-  - aesir smp
   - aesirmc
   - aesirnet
   - aesirnetwork
@@ -1560,7 +4274,6 @@ rival-servers:
   - destannetwork
   - destansmp
   - donut
-  - donut smp
   - donutmc
   - donutnet
   - donutsmp
@@ -1622,7 +4335,6 @@ rival-servers:
   - kuantumnetwork
   - kuantumsmp
   - kuramamc
-  - lagsmp
   - lantemc
   - lantenet
   - lantenetvork
@@ -1711,7 +4423,6 @@ rival-servers:
   - pixelcraft
   - pixelnetwork
   - pixelsmp
-  - play.makarasmp
   - playblokya
   - playdonut
   - playdonutsmp
@@ -1751,7 +4462,6 @@ rival-servers:
   - smoralifesteal
   - smpaternosme
   - solarsmp
-  - son oyuncu
   - sonoyuncu
   - sonoyuncucom
   - sonoyuncumc

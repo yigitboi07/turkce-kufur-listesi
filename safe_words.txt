@@ -1,6 +1,7 @@
 a tamam
 aglayarak
 aha koyim
+akilli
 alam
 alamadi
 alamadik
@@ -57,6 +58,7 @@ analizin
 anlamam
 anlayarak
 arayarak
+as
 atam
 atamadi
 atamadik
@@ -86,6 +88,7 @@ bayramina
 bayramini
 bayramlik
 bayramliklar
+bb
 beklemem
 ben kurdum
 bilemiycem
@@ -119,6 +122,7 @@ boyayarak
 bulamam
 bulmam
 buyu kitabi
+bye
 calkalayarak
 carpicak
 carpicam
@@ -134,13 +138,17 @@ cocuk
 cocuklar
 cok kasar
 cok sukur
+control
+ctrl
 dayayarak
+dc
 dc sart
 defa mc
 defa mc i
 deliksiz
 demem
 dinlemem
+discord
 do it
 docent
 dol
@@ -173,7 +181,6 @@ esc
 esc bas
 esc tusu
 escape
-escort
 escorting
 escye bas
 eski
@@ -183,11 +190,11 @@ eskimis
 eskisi
 eskiye
 eskiyle
-eskort
 eskortluk
 etmem
 evcil kurt
 eyvallah
+eyw
 ezdim
 ezer
 ezerim
@@ -212,6 +219,7 @@ gezmek
 gidem
 gidemiycem
 gitmem
+gokturk
 gokturkcraft
 goremicem
 goremiycem
@@ -232,10 +240,13 @@ gotursun
 goturup
 goturur
 goturuyom
+gunaydin
 hamam
 haslayarak
 hazirlayarak
 here i am
+hg
+hosgeldin
 i am
 i am fine
 i am just
@@ -259,6 +270,7 @@ istikrar
 it
 itk
 itm
+iyi geceler
 kacmam
 kalam
 kalamam
@@ -289,7 +301,6 @@ kasarim
 kasariz
 kasarken
 kasarmak
-kasiyoo
 kasiyor
 kaynayarak
 kescek
@@ -314,7 +325,6 @@ koparici
 kopek
 kopekler
 kordinat
-korkak
 korkmam
 korkmam ki
 korkmamki
@@ -361,9 +371,11 @@ kuskus
 kutlayarak
 lastik
 masallah
+msg
 musluman
 muzik
 napacam
+napcam
 napicagini
 napicagiz
 napicak
@@ -373,13 +385,17 @@ napicaktim
 napicam
 napican
 napicaz
+napion
+napiyon
+nasilsin
 naspicam
+nbr
+nbrr
 netherit
 netherite
 normal
 normalde
 numarali
-oc
 ocagi
 ocak
 ocakta
@@ -393,6 +409,7 @@ ocumuzu
 ocunu
 ocunuz
 odun kasar
+ok
 olabilirmisin
 olamam
 otlayarak
@@ -403,7 +420,11 @@ para kasar
 parlayarak
 patlayarak
 paylayarak
+pazar
+pazara
 pazara koyim
+pazardan
+pazartesi
 pc
 pcde
 pcden
@@ -441,6 +462,7 @@ remzi
 remzie
 remzik
 ruzruz
+sa
 saglayarak
 saklayarak
 sallayarak
@@ -573,6 +595,8 @@ tapicak
 tapicam
 tarayarak
 temiz
+tesekkur
+tesekkurler
 teyze
 tez
 teze
@@ -589,9 +613,9 @@ tmmmm
 topic
 toplayarak
 toplayarakk
+tpa
 tug dususu
 turksmp
-turksmpnet
 tutam
 tutamam
 tutmam
@@ -605,6 +629,7 @@ veremiycem
 vermem
 vitamin
 where i am
+who am
 who i am
 xp kasar
 ya tamam
@@ -620,6 +645,8 @@ yapamam
 yapamam ki
 yapamamki
 yaparak
+yapcam
+yapcaz
 yapica
 yapicagimizi
 yapicagini
@@ -673,6 +700,13 @@ yolyolcusu
 yolyolcusuyum
 yutam
 yutamam
+zar
+zarf
+zaruri
+zeka
+zekali
+zekasin
+zekice
 ziplayarak
 zirlayarak
 zorlayarak

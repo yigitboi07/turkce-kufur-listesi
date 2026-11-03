@@ -9,4 +9,4 @@ Bu repo, Türkçe Minecraft sunucuları için **oyuncu sohbeti odaklı** küfür
 - küfürler 2: leet / çok kelimeli hakaret-küfür kalıpları
 
 ## Güncelleme
-2026-11-03: ExoviaDonutChat words.yml ile hizalı curasyon (FP elendi, mute sebepleri + önceki liste birleştirildi).
+2026-11-03

@@ -1,12 +1,8 @@
-# Türkçe Küfür Listesi (Minecraft sohbet / 0% yanlış pozitif)
+# Türkçe küfür listesi (Minecraft / 0% yanlış pozitif)
 
-Bu repo, Türkçe Minecraft sunucuları için **oyuncu sohbeti odaklı** küfür/hakaret listesidir.
+## excluded_fp.txt ne demek?
+**Engelleme listesi değildir.** Upstream adaylarından bilerek **çıkarılan** kelimelerdir.
+`zar`, `zekalı`, `yapıcam`, `yapicam`, `tamam`, `selam` gibi normal sohbet kelimeleri burada olduğu için **engellenmez**.
 
-## İlke
-- Tek başına normal Türkçe veya Minecraft sohbetinde geçen kelimeler **listelenmez**.
-- Kısa/belirsiz tokenlar (m, mal, oc, sik, nal vb.) çıkarılmıştır; gerekirse yalnızca kalıp olarak tutulur.
-- küfürler 1: güvenle engellenebilir tekil kelimeler (virgülle ayrılmış)
-- küfürler 2: leet / çok kelimeli hakaret-küfür kalıpları
-
-## Güncelleme
-2026-11-03
+Asıl engel listesi: `küfürler 1` / `küfürler 2` (ve sunucuda `words.yml`).
+`safe_words.txt` maskeleme / istisna içindir.

@@ -1,3 +1,7 @@
+# BU DOSYA ENGELLEME LİSTESİ DEĞİLDİR.
+# Buradaki kelimeler bilerek engel listesine ALINMADI (yanlış pozitif / normal sohbet).
+# Örnek: zar, zekalı, yapıcam, yapicam, tamam, selam — oyuncu bunları yazınca engellenmez.
+# Asıl engel listesi: plugins/ExoviaDonutChat/words.yml (exact/root/sub)
 !bne
 @m-cık
 @m-k
